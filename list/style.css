@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #43bc21;
+  padding: 15px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+a:hover {
+  transform: scale(110%);
+}
+
+#digimon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  text-align: center;
+}
+
+#digimon img {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
